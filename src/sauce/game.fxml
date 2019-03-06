@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="311.0" prefWidth="438.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sauce.gameController">
+   <children>
+      <JFXButton fx:id="btn0" layoutX="57.0" layoutY="14.0" onAction="#handleBtn" prefHeight="60.0" prefWidth="90.0" text="-" />
+      <JFXButton fx:id="btn1" layoutX="175.0" layoutY="14.0" onAction="#handleBtn" prefHeight="60.0" prefWidth="90.0" text="-" />
+      <JFXButton fx:id="btn2" layoutX="291.0" layoutY="14.0" onAction="#handleBtn" prefHeight="60.0" prefWidth="90.0" text="-" />
+      <JFXButton fx:id="btn3" layoutX="57.0" layoutY="74.0" onAction="#handleBtn" prefHeight="60.0" prefWidth="90.0" text="-" />
+      <JFXButton fx:id="btn4" layoutX="175.0" layoutY="74.0" onAction="#handleBtn" prefHeight="60.0" prefWidth="90.0" text="-" />
+      <JFXButton fx:id="btn5" layoutX="291.0" layoutY="74.0" onAction="#handleBtn" prefHeight="60.0" prefWidth="90.0" text="-" />
+      <JFXButton fx:id="btn6" layoutX="57.0" layoutY="134.0" onAction="#handleBtn" prefHeight="60.0" prefWidth="90.0" text="-" />
+      <JFXButton fx:id="btn7" layoutX="175.0" layoutY="134.0" onAction="#handleBtn" prefHeight="60.0" prefWidth="90.0" text="-" />
+      <JFXButton fx:id="btn8" layoutX="291.0" layoutY="134.0" onAction="#handleBtn" prefHeight="60.0" prefWidth="90.0" text="-" />
+      <Label layoutX="142.0" layoutY="216.0" prefHeight="32.0" prefWidth="158.0" text="Current Player:">
+         <font>
+            <Font name="Dank Mono Regular" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="winner" layoutX="153.0" layoutY="248.0" prefHeight="32.0" prefWidth="134.0" text="Player X Won!" textFill="#d70808" visible="false">
+         <font>
+            <Font name="Dank Mono Regular" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="currentPlayer" layoutX="301.0" layoutY="218.0" prefHeight="32.0" prefWidth="19.0" text="X" textFill="#d70808">
+         <font>
+            <Font name="Dank Mono Regular" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="165.0" layoutY="279.0" prefHeight="26.0" prefWidth="111.0" text="© Blacksuan19" textFill="#dddddd" />
+   </children>
+</AnchorPane>
