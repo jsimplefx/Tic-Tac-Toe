@@ -1,6 +1,14 @@
 #### Introduction:
 > a simple tic tac toe game built in javaFX using Scene builder
 
+#### Features:
+- places as clickable buttons
+- multiplayer
+- win or tie
+- restart game after win or tie
+- simple and easy to understand flow
+- GUI build with [JFoenix Library](https://github.com/jfoenixadmin/JFoenix)  
+
 #### Upcoming:
 - [ ] ability to play solo (with PC)
 
